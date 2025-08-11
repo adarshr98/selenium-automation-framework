@@ -52,4 +52,4 @@ def test_DemoTest2(browserInstance, test_list_item):
     #price and then second come after that, so since we are doing assertion we initially tried validating the whole price
     #and hence used Expected price inidividually in the json file
     assert total_price == expected_price, f"Expected total {expected_price}, but got {sum}"
-    assert "THANK YOU" in ThankYouMsg.upper(), "ThankYou message not found in the Final PagE"
+    assert "THANK YOU" in ThankYouMsg.upper(), "ThankYou message not found in the Final Page" #edit the changes
